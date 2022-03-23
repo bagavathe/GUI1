@@ -53,4 +53,4 @@ jobs:
           app-name: 'mdi-angular-app1'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8250A7F884A643E9BC012924C06869F0 }}
-          package: .
+          package: ./dist/GUI1
